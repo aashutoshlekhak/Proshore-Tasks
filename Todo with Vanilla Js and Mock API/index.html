@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo Application</title>
+  </head>
+  <body>
+    <header>
+      <h1>Todo List</h1>
+      <div class="add-todo">
+        <input
+          type="text"
+          placeholder="Add Todo"
+          id="new-to-do"
+          class="new-todo-field"
+        />
+        <button id="add-todo-button">Add</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="yet-to-do-parent">
+        <h2>Yet To Do</h2>
+        <div id="yet-to-do">
+          <!-- <div id="todo-0909" class="todo">
+          <p class="todo-text">Todo</p>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+          <button class="complete">Complete</button>
+        </div> -->
+        </div>
+      </div>
+
+      <div class="completed-to-do-parent">
+        <div class="completed-to-do-header">
+          <h2>Completed To Do</h2>
+          <button id="clear-completed-button">Clear Completed</button>
+        </div>
+        <div id="completed-to-do"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

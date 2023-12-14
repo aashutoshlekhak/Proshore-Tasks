@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 100;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > .add-todo > .new-todo-field {
+  border-radius: 12px;
+  border: none;
+  background: #ededed;
+  width: 350px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+#add-todo-button {
+  border: none;
+  border-radius: 14px;
+  background: #df4848;
+  color: #f3eeea;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 85px;
+  height: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#add-todo-button:active {
+  transform: scale(0.98);
+}
+
+#add-todo-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+main {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yet-to-do-parent {
+  width: 554px;
+  height: 519px;
+  border-radius: 37px;
+  background: #fff;
+  box-shadow: 0px 4px 45.3px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 30px;
+}
+
+#yet-to-do {
+  height: 430px;
+  overflow-y: auto;
+}
+
+.completed-to-do-parent {
+  width: 554px;
+  height: 519px;
+  border-radius: 37px;
+  border-radius: 37px;
+  background: #ecd06f;
+  box-shadow: 0px 4px 55.4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 30px;
+}
+
+/* Individual todo class */
+.todo {
+  width: aut;
+  background-color: #83ffd1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.completed-to-do-header {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 14px;
+}
+
+#clear-completed-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #df4848;
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: transform 0.2s ease-in-out;
+}
+#clear-completed-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+#clear-completed-button:active {
+  transform: scale(1);
+}
+
+#completed-to-do {
+  padding: 0px 14px;
+  color: #222222;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: auto;
+  bottom: 0;
+}
